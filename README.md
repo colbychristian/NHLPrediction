@@ -1,7 +1,9 @@
 # NHLPrediction
-A simple program to estimate winner of Stanley Cup Finals
+A simple program in Octave to estimate winner of Stanley Cup Finals
 
 model uses past historical NHL statistics by team from 1976 to 2020 to predict 2021 winner.
+
+input data can be updated from NHL.com/stats
 
 parameters used in historical training data are only included if they can be logically called on at any point of the current season (e.g. power play percentage)
 
