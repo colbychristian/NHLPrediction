@@ -1,3 +1,11 @@
+Update:21-06-29
+
+Added SVM Classifier written in Jupyter Notebook
+
+Model gives highest chances of winning to Colorado Avalanche, which seems less accurate given this year's NHL playoff results; however, it is interesting to note that it gives Montreal Canadiens the 4th highest chance, while the Gradient Descent model had them in the 11th position (Montreal being the surprise winner of NHL semi-finals. The model also seemed to improve predictions for other teams as well. Predictions are also more realistic than the gradient descent model, with percentages ranging from 0-6% instead of 0-40%.
+
+Lingering issue: scaling the data resulted in all exmaples having the same probability. The model uses unscaled data, which is not best practice, but gives seemingly meaningful results.
+
 # NHLPrediction
 A simple program in Octave to estimate winner of Stanley Cup Finals
 
