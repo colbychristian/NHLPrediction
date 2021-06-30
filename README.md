@@ -1,7 +1,7 @@
 # NHLPrediction
 A simple program in Octave to estimate winner of Stanley Cup Finals
 
-predicted winner so far: Vegas Golden Knights (Colorado Avalanche very close second pick)
+predicted winner so far: Tampa Bay Lightning
 
 model uses past historical NHL statistics by team from 1976 to 2020 to predict 2021 winner.
 
